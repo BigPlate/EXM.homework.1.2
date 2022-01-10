@@ -9,7 +9,7 @@ public final class joo31775 extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        World world = getServer().getWorld("a");
+        World world = getServer().getWorld("b");
         world.setGameRule(GameRule.KEEP_INVENTORY, false);
 
         // Plugin startup logic
