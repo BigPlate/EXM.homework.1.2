@@ -9,8 +9,8 @@ public final class joo31775 extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        World world = getServer().getWorld("b");
-        world.setGameRule(GameRule.KEEP_INVENTORY, false);
+        World world = getServer().getWorld("world");
+        world.setGameRule(GameRule.DO_DAYLIGHT_CYCLE, false);
 
         // Plugin startup logic
 
